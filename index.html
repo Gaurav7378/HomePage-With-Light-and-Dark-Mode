@@ -1,0 +1,325 @@
+<html>
+
+<head>
+    <title> eBay</title>
+    <!-- Linking CSS File -->
+    <link rel="stylesheet" href="ebay.css">
+    <!-- Linking JS File -->
+    <script src="ebay.js"></script>
+    <!-- Linking Bootstrap Version 5.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Importing font Awesome -->
+    <script src="https://kit.fontawesome.com/7947eee900.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="nav1left">
+        <ul class="unorderlist">
+            <li>
+                <a href=""></a>Hi!
+            </li>
+            <li>
+                <a href="">Sign in</a>
+            </li>
+            <li>
+                <a href=""></a>or
+            </li>
+            <li>
+                <a href="">register</a>
+            </li>
+            <li>
+                <a href="" class="underline"></a>Daily Deals
+            </li>
+            <li>
+                <a href="" class="underline"></a>Help & Contact
+            </li>
+        </ul>
+    </div>
+    <div id="nav1right">
+        <li>
+            <a href="" id="Sell">Sell</a>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle watchlist" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Watchlist
+            </a>
+            <ul class="dropdown-menu dropdown-menu-light">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle MyeBay " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              My eBay
+            </a>
+            <ul class="dropdown-menu dropdown-menu-light">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </li>
+        <span>
+           <a href=""><i class="fa-regular fa-bell" id="bell"></i></a> 
+        </span>
+        <span id="cart">
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path><style margin-top:5px></style> </svg></a>
+        </span>
+        <script src="ebay.js"></script>
+        <button onclick="changeMode() " class="btn "> <i class="fa-regular fa-lightbulb fa-beat"></i></button>
+
+    </div>
+    <!-- First Horizontal Line -->
+    <hr id="hrone" />
+    <div id="nav2">
+        <!-- Separate Division for eBay Logo -->
+        <div id="nav2logo">
+            <!-- Adding eBay logo using img tag -->
+            <img src="https://cdn.pixabay.com/photo/2013/10/01/10/29/ebay-189064_960_720.png" class="img-fluid" alt="eBay">
+        </div>
+        <!-- Dropdown button Shop by Category -->
+        <li class="nav-item dropdown onebullet">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="shopby">
+                      Shop by
+                  
+                    </a>
+            <ul class="dropdown-menu dropdown-menu-light" role="menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </li>
+        <!-- Search Box -->
+        <div class="container-fluid">
+            <form class="d-flex" role="search">
+
+                <input class="form-control me-2 " type="search" placeholder="Search for anything" aria-label="Search" id="searchbox">
+                <!-- All Categories Button  -->
+                <div class="dropdown">
+
+                    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="allcategories">
+                      All Categories
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+        <!-- Search Button -->
+        <button type="button" class="btn btn-primary" id="searchbtn">Search</button>
+        <!-- Advanced Button -->
+        <td class="gh-td" id="gh-as-td"><a title="Advanced Search" href="http://www.ebay.com/sch/ebayadvsearch" aria-label="Advanced Search" _sp="m570.l2614" id="gh-as-a">Advanced</a></td>
+
+    </div>
+
+    <hr id="hrtwo" />
+    <!-- Main Content -->
+    <div class="maincontent">
+        <li>
+            <a href="">Home</a>
+        </li>
+        <li>
+            <a href="">&hearts; Saved</a>
+        </li>
+        <li>
+            <a href="">Electronics</a>
+        </li>
+        <li>
+            <a href="">Motors</a>
+        </li>
+        <li>
+            <a href="">Fashion</a>
+        </li>
+        <li>
+            <a href="">Collections & Arts</a>
+        </li>
+        <li>
+            <a href="">Sports </a>
+        </li>
+        <li>
+            <a href="">Health & Beauty</a>
+        </li>
+        <li>
+            <a href="">Industrial equipment</a>
+        </li>
+        <li>
+            <a href="">Home & Garden</a>
+        </li>
+        <li>
+            <a href="">Deals</a>
+        </li>
+        <li>
+            <a href="">Sell</a>
+        </li>
+    </div>
+    <!-- Adding Slideshow / Carousel of Images -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://img.freepik.com/free-vector/corporative-landing-page-web-template-business-agencies_23-2148239380.jpg?w=740&t=st=1682579398~exp=1682579998~hmac=3e4f14eb6392223c7f28fa5d9adc5c3cd5459dd536f07dfcc60174d8e7b510f9" class="d-block w-100 h-50 carouselimg"
+                    alt="one">
+
+            </div>
+            <div class="carousel-item">
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/787363/1617369550601.jpg?imwidth=1600&impolicy=hq" class="d-block w-100 h-50 carouselimg" alt="two">
+            </div>
+            <div class="carousel-item">
+                <img src="https://img1.gadgetsnow.com/gd/imgbn/31st-May-2022-DOD_2-680-x-250_2.jpg" class="d-block w-100 h-50 carouselimg" alt="three">
+
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Division for daily deals -->
+    <div id="Dailydeals">
+        <li>
+            <a href="#" id="dailydealsbold">Daily Deals</a>
+        </li>
+        <li>
+            <a href="#">See all &RightArrow;
+            </li></a>
+    </div>
+    <!-- Cards in daily deals -->
+    <div id="dailydealsoffers" class="overflow-hidden">
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/41dXLcrByEL.jpg" class="card-img-top" alt="one">
+            <div class="card-body">
+                <h5 class="card-title">
+                    EMPORIO ARMANI</h5>
+                <p class="card-text"> MRP:12,990 Rs
+                    <del> MRP:15,000 Rs</del>
+                </p>
+                <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2017/04/04/18/14/video-game-console-2202635__340.jpg" class="card-img-top" alt="one">
+            <div class="card-body">
+                <h5 class="card-title">
+                    Sony Playstation IV</h5>
+                <p class="card-text"> MRP:27,990 Rs
+                    <del> MRP:31,000 Rs</del>
+                </p>
+                <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.maharajawhiteline.com/assests/product-images/enlarge-image/5200101108.jpg" class="card-img-top" alt="one">
+            <div class="card-body">
+                <h5 class="card-title">
+                    RapidMix 500W Copper Motor Mixer Grinder </h5>
+                <p class="card-text"> MRP:599 Rs
+                    <del> MRP:999 Rs</del>
+                </p>
+                <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/71a4ZQNqTiL._SL1500_.jpg" class="card-img-top" alt="one">
+            <div class="card-body">
+                <h5 class="card-title">
+                    Samsung 80 cm (32 Inches) Wondertainment Series </h5>
+                <p class="card-text"> MRP:29,999 Rs
+                    <del> MRP:39,999 Rs</del>
+                </p>
+                <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/914hFeTU2-L._SL1500_.jpg" class="card-img-top" alt="one">
+            <div class="card-body">
+                <h5 class="card-title">
+                    Canon EOS 200D II 24.1MP Digital SLR Camera </h5>
+                <p class="card-text"> MRP:63,450 Rs
+                    <del> MRP:99,999 Rs</del>
+                </p>
+                <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src=https://contents.mediadecathlon.com/p2379648/76b690013bdd26b3f0f35af45421b0d5/p2379648.jpg?format=auto&quality=70&f=650x0 " class="card-img-top " alt="one ">
+            <div class="card-body ">
+                <h5 class="card-title ">
+                    Football Backpack 33L - Dark Grey </h5>
+                <p class="card-text "> MRP:1499 Rs
+                    <del> MRP:1999 Rs</del>
+                </p>
+                <a href="# " class="btn btn-primary ">Buy now</a>
+            </div>
+        </div>
+        <div class="card ">
+            <img src=https://images.samsung.com/is/image/samsung/p6pim/in/rs7hcg8543b1hl/gallery/in-side-by-side-family-hub-449420-rs7hcg8543b1hl-535087575?$2052_1641_PNG$" class="card-img-top " alt="one ">
+            <div class="card-body ">
+                <h5 class="card-title ">
+                    615L Convertible 5in1 Side by Side Refrigerator </h5>
+                <p class="card-text "> MRP:1,74,000 Rs
+                    <del> MRP:1,90,00 Rs</del>
+                </p>
+                <a href="# " class="btn btn-primary ">Buy now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src=https://m.media-amazon.com/images/I/41Lvn59wyML.jpg " class="card-img-top " alt="one ">
+            <div class="card-body ">
+                <h5 class="card-title ">
+                    BRUTON Men's Sports Shoes Sports </h5>
+                <p class="card-text "> MRP:299 Rs
+                    <del> MRP:499 Rs</del>
+                </p>
+                <a href="# " class="btn btn-primary ">Buy now</a>
+            </div>
+        </div>
+        <div class="card ">
+            <img src=https://m.media-amazon.com/images/I/41TuyxwZ9mL._SX679_.jpg " class="card-img-top " alt="one ">
+            <div class="card-body ">
+                <h5 class="card-title ">
+                    Voltas 1.4 Ton 3 Star Inverter Split AC </h5>
+                <p class="card-text "> MRP:31,999 Rs
+                    <del> MRP:38,999 Rs</del>
+                </p>
+                <a href="#" class="btn btn-primary ">Buy now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src=https://m.media-amazon.com/images/I/31VjlrbE3bL._SY445_SX342_QL70_FMwebp_.jpg " class="card-img-top " alt="one ">
+            <div class="card-body ">
+                <h5 class="card-title ">
+                    Apple iPhone 14 (128 GB) - Blue</h5>
+                <p class="card-text "> MRP:71,999 Rs
+                    <del> MRP:99 Rs</del>
+                </p>
+                <a href="# " class="btn btn-primary ">Buy now</a>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+    </div>
+    <footer>
+        <h3>
+        <center><a href=" ">&copy;eBay 2023 All Rights reserved</a> .</center> 
+        </h3>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,304 @@
+/* For body Margin */
+
+body {
+    margin: auto;
+}
+
+
+/* First left navbar */
+
+#nav1left {
+    /* border: 2px solid black; */
+    width: 470px;
+    height: 30px;
+}
+
+.unorderlist {
+    display: inline-flex;
+    margin-inline: 0px;
+}
+
+.unorderlist li {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+    color: gray;
+}
+
+.underline:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* First Right Navbar */
+
+#nav1right {
+    /* border: 2px solid black; */
+    width: 470px;
+    height: 30px;
+    float: right;
+    margin: -30px 0px;
+}
+
+
+/* Sell  */
+
+#nav1right,
+#Sell {
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+}
+
+
+/* Watchlist Dropdown */
+
+.watchlist {
+    margin: -31px 41px;
+    color: gray;
+    width: 100px;
+}
+
+
+/* MyeBay Dropdown */
+
+.MyeBay {
+    margin: -39px 142px;
+    width: 100px;
+}
+
+.dropdowncolor {
+    color: gray;
+}
+
+
+/* Making color black of Watchlist and My eBay */
+
+#nav1right li a {
+    color: gray;
+}
+
+
+/* for bell icon */
+
+#bell {
+    margin: 7px 260px;
+    font-size: 24px;
+    color: gray;
+    cursor: pointer;
+}
+
+
+/* For cart icon */
+
+svg {
+    width: 50px;
+    height: 50px;
+    margin: -31px 325px;
+    font-size: 28px;
+    color: gray;
+    cursor: pointer;
+}
+
+
+/* For Dark mode and light Mode */
+
+button .fa-lightbulb {
+    margin: -34px 367px;
+    font-size: 23px;
+    width: 50px;
+    height: 50px;
+    color: gray;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+#light {
+    background-color: white;
+    color: black;
+}
+
+
+/* Dark and Light mode ending here */
+
+
+/* For Horizontal line below the first navbar */
+
+#hrone {
+    margin: 0px 0px;
+}
+
+
+/* eBay logo Image */
+
+#nav2logo,
+img {
+    height: 68px;
+    width: 130px;
+    margin: 0 16px;
+}
+
+
+/* this is the bullet of shop by button */
+
+.onebullet {
+    list-style: none;
+}
+
+
+/* Shop by Dropdown */
+
+#shopby {
+    margin: -63px 173px;
+    font-size: 1.2rem;
+    color: gray;
+    list-style: none;
+}
+
+
+/* Search Box */
+
+#searchbox {
+    width: 650px;
+    margin: 26px 287px;
+    border: 2px solid black;
+    border-radius: 0px;
+}
+
+
+/* All Categories Dropdown in search box */
+
+#allcategories {
+    margin: 26px -23px;
+    border: 2px solid black;
+    border-radius: 0px;
+}
+
+
+/* Search Button */
+
+#searchbtn {
+    margin: -80px 282px;
+    width: 158px;
+    height: 38px;
+    float: right;
+    border-radius: 0px;
+}
+
+
+/* ID of advanced button */
+
+#gh-as-a {
+    margin: -74px 196px;
+    float: right;
+    font-size: 1.0rem;
+    text-decoration: none;
+    color: gray;
+}
+
+
+/* Second Horizontal line below the search bar */
+
+#hrtwo {
+    margin: -18px 0px;
+}
+
+
+/* Main Content like Home, Fashion,Electronic etc */
+
+.maincontent {
+    display: inline-flex;
+    margin: 6px 131px;
+}
+
+.maincontent,
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.maincontent a {
+    text-decoration: none;
+    color: gray;
+    padding: 14px;
+}
+
+.carouselimg {
+    background-size: 100%;
+    margin: 0px 0px;
+}
+
+#Dailydeals li {
+    display: inline-flex;
+}
+
+#Dailydeals li a {
+    text-decoration: none;
+    color: gray;
+    margin-inline: 1.2rem;
+    margin-top: 5px;
+    font-size: 2.0rem;
+}
+
+#dailydealsbold {
+    font-weight: 500;
+}
+
+
+/* Class for images in cards */
+
+#dailydealsoffers {
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: inline-flex;
+    width: 100%;
+}
+
+.card {
+    display: inline-flex;
+    flex-direction: row;
+    /* float: left; */
+    margin: 5px;
+    width: 500px;
+    height: 400px;
+}
+
+.card-img-top {
+    height: 150px;
+    width: 150px;
+}
+
+.card-title {
+    font-size: 1.0rem;
+    color: gray;
+}
+
+.card-text {
+    font-size: 15px;
+    color: gray;
+}
+
+.card .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 38px 0px;
+}
+
+
+/* Footer */
+
+center a {
+    color: gray;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+center a:hover {
+    text-decoration: underline;
+}
